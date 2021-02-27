@@ -305,11 +305,51 @@ src="https://www.facebook.com/tr?id=1676599609180515&ev=PageView&noscript=1"
   <div class="modal-dialog" role="document" style="max-width:fit-content;">
     <div class="modal-content">
       <div class="modal-body">
-       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhU0MvJejFcCKNRhapmaI_Z8r3ZObbebXIDROYI5TAHciLhg/viewform?embedded=true" width="auto" height="952" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+	       <div id="Iframe-Liason-Sheet" class="iframe-border center-block-horiz">
+       <div class="responsive-wrapper responsive-wrapper-wxh-760x1200">
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhU0MvJejFcCKNRhapmaI_Z8r3ZObbebXIDROYI5TAHciLhg/viewform?embedded=true">Cargando...</iframe>
+       </div>
+     </div>
+       
       </div>
     </div>
   </div>
 </div>
+	  <style>
+		   #Iframe-Liason-Sheet {
+    max-width: 760px;
+    max-height: 1200px;
+    overflow: hidden;
+    }
+    /* inner wrapper: make responsive */
+    .responsive-wrapper {
+    position: relative;
+    height: 0; /* gets height from padding-bottom setting */
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    }
+    .responsive-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    /* padding-bottom = h/w as a % */
+    .responsive-wrapper-wxh-760x1200 {
+    padding-bottom: 363.6364%;
+    }
+    .iframe-border {
+    border: 1px solid #000;
+    }
+    .center-block-horiz {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+	  </style>
     <!-- JavaScript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
