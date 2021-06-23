@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow:
+Sitemap: https://deasy.pe/sitemap.xml
